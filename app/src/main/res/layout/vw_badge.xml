@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/badge"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:textSize="12sp"
+    android:textStyle="bold"
+    android:text="1"
+    android:background="@drawable/ic_badge"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>

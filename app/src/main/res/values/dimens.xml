@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_radius">7dp</dimen>
+    <dimen name="call_type_indicator_size">35dp</dimen>
+    <dimen name="badge_margin_left">25dp</dimen>
+    <dimen name="badge_margin_top">0dp</dimen>
+    <dimen name="header_text_size">20sp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="shadow_height">4dp</dimen>
+    <dimen name="caller_id_text_size">16sp</dimen>
+</resources>

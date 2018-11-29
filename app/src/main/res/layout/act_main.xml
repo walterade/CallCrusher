@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <com.walterade.callcrusher.widget.BouncyTextView
+                android:id="@+id/crush_calls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:drawableStart="@drawable/ic_smash"
+                android:contentDescription="Block suspicious calls"
+                android:layout_marginEnd="15dp"
+                />
+
+            <com.walterade.callcrusher.widget.BouncyTextView
+                android:id="@+id/block_calls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:drawableStart="@drawable/ic_block_24dp"
+                android:contentDescription="Allow suspicious calls"
+                android:layout_marginEnd="15dp"
+                />
+
+            <com.walterade.callcrusher.widget.BouncyTextView
+                android:id="@+id/allow_calls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:drawableStart="@drawable/ic_block_disabled_24dp"
+                android:contentDescription="Allow all calls"
+                android:layout_marginEnd="15dp"
+                />
+
+            <com.walterade.callcrusher.widget.BouncyTextView
+                android:id="@+id/add_blocked_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:drawableStart="@drawable/ic_add"
+                android:contentDescription="Block suspicious calls"
+                android:layout_marginEnd="15dp"
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

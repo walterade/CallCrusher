@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Call Crusher</string>
+    <string name="action_settings">Settings</string>
+    <string name="date_format">MMM d, yyyy \'at\' h:mm a</string>
+    <string name="incoming_calls_empty">There are no incoming calls yet. Once a call comes in it will be displayed here and you will be able to block them</string>
+    <string name="blocked_calls_empty">There are no blocked calls yet. Once a call comes in and its been blocked, it will appear here. Now go ahead and wait then crush some nuisance callers.</string>
+    <string name="permission_message">In order to block calls and check if calls were from contacts we will need access to your phone and contacts. Please go to the App Settings and enable Phone and Contacts access for Call Crusher</string>
+    <string name="permission_required_title">Permissions Required</string>
+    <string name="opencnam_api_url">https://api.opencnam.com</string>
+    <string name="opencnam_account_sid">AC2d25471c4ac7482b9cf0c2e83764f331</string>
+    <string name="opencnam_auth_token">AU277aae00f1a04cdabad8baa111df90ed</string>
+</resources>
